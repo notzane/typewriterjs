@@ -685,7 +685,7 @@ class Typewriter {
             })
           }
 
-          if(node) {
+          if(node && node.parentNode) {
             node.parentNode.removeChild(node);
           }
           
